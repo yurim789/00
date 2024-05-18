@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>보수교육 만족도 설문지</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>아이돌보미 보수교육 만족도 설문지</h1>
+        <p>아이돌봄 지원사업 아이돌보미 보수교육에 참여해 주셔서 감사합니다. 본 설문지는 향후 운영되는 보수교육의 질적 향상을 위한 참고 자료로 사용되며 그 외의 목적으로는 사용하지 않습니다. 더 나은 교육 환경 개선을 위해 각 문항 작성 시 솔직한 답변 부탁드립니다.</p>
+
+        <div class="section">
+            <h2>본인의 연령대를 체크해주세요</h2>
+            <div class="question">
+                <input type="radio" id="age1" name="age-group" value="20대">
+                <label for="age1">20대</label>
+                <input type="radio" id="age2" name="age-group" value="30대">
+                <label for="age2">30대</label>
+                <input type="radio" id="age3" name="age-group" value="40대">
+                <label for="age3">40대</label>
+                <input type="radio" id="age4" name="age-group" value="50대">
+                <label for="age4">50대</label>
+                <input type="radio" id="age5" name="age-group" value="60대">
+                <label for="age5">60대</label>
+                <input type="radio" id="age6" name="age-group" value="70대 이상">
+                <label for="age6">70대 이상</label>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>아이돌보미로 활동한 경력은 어떻게 되십니까?</h2>
+            <div class="question">
+                <input type="radio" id="exp1" name="experience" value="1년 미만">
+                <label for="exp1">1년 미만</label>
+                <input type="radio" id="exp2" name="experience" value="1년~3년 미만">
+                <label for="exp2">1년~3년 미만</label>
+                <input type="radio" id="exp3" name="experience" value="3년~6년 미만">
+                <label for="exp3">3년~6년 미만</label>
+                <input type="radio" id="exp4" name="experience" value="6년~9년 미만">
+                <label for="exp4">6년~9년 미만</label>
+                <input type="radio" id="exp5" name="experience" value="9년 이상">
+                <label for="exp5">9년 이상</label>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>보수교육 공통 설문</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>구분</th>
+                            <th>내용</th>
+                            <th>매우<br>그렇지<br>않다</th>
+                            <th>그렇지<br>않다</th>
+                            <th>보통</th>
+                            <th>그렇다</th>
+                            <th>매우<br>그렇다</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>교과과정이 잘 구성되었다고 생각합니까?</td>
+                            <td><input type="radio" name="q1" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q1" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q1" value="보통"></td>
+                            <td><input type="radio" name="q1" value="그렇다"></td>
+                            <td><input type="radio" name="q1" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>교육 내용은 보수교육의 목적과 맞게 적절하다고 생각합니까?</td>
+                            <td><input type="radio" name="q2" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q2" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q2" value="보통"></td>
+                            <td><input type="radio" name="q2" value="그렇다"></td>
+                            <td><input type="radio" name="q2" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>교육 내용이 현장과 관련성이 높다고 생각합니까?</td>
+                            <td><input type="radio" name="q3" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q3" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q3" value="보통"></td>
+                            <td><input type="radio" name="q3" value="그렇다"></td>
+                            <td><input type="radio" name="q3" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>강사는 강의를 이해하기 쉽게 강의하였습니까?</td>
+                            <td><input type="radio" name="q4" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q4" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q4" value="보통"></td>
+                            <td><input type="radio" name="q4" value="그렇다"></td>
+                            <td><input type="radio" name="q4" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>강사는 주제에 맞는 준비와 열의를 가지고 강의하였습니까?</td>
+                            <td><input type="radio" name="q5" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q5" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q5" value="보통"></td>
+                            <td><input type="radio" name="q5" value="그렇다"></td>
+                            <td><input type="radio" name="q5" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>강사가 강의 주제에 맞는 전문성을 갖추었다고 생각합니까?</td>
+                            <td><input type="radio" name="q6" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q6" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q6" value="보통"></td>
+                            <td><input type="radio" name="q6" value="그렇다"></td>
+                            <td><input type="radio" name="q6" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>교육 기간 및 시간은 적절하였다고 생각합니까?</td>
+                            <td><input type="radio" name="q7" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q7" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q7" value="보통"></td>
+                            <td><input type="radio" name="q7" value="그렇다"></td>
+                            <td><input type="radio" name="q7" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>교육 내용에 맞는 사전준비가 이루어졌다고 생각합니까?</td>
+                            <td><input type="radio" name="q8" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q8" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q8" value="보통"></td>
+                            <td><input type="radio" name="q8" value="그렇다"></td>
+                            <td><input type="radio" name="q8" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>교육 시작부터 수료까지 원활하게 운영되었다고 생각합니까?</td>
+                            <td><input type="radio" name="q9" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q9" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q9" value="보통"></td>
+                            <td><input type="radio" name="q9" value="그렇다"></td>
+                            <td><input type="radio" name="q9" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>교육 중 불편사항 발생 시 교육기관이 적절히 대응하였다고 생각합니까?</td>
+                            <td><input type="radio" name="q10" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q10" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q10" value="보통"></td>
+                            <td><input type="radio" name="q10" value="그렇다"></td>
+                            <td><input type="radio" name="q10" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>교육 진행 장소의 접근성이 적절하다고 생각합니까?</td>
+                            <td><input type="radio" name="q11" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q11" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q11" value="보통"></td>
+                            <td><input type="radio" name="q11" value="그렇다"></td>
+                            <td><input type="radio" name="q11" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>교육 시설의 편리성과 수업 준비가 잘 갖추어졌다고 생각합니까?</td>
+                            <td><input type="radio" name="q12" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q12" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q12" value="보통"></td>
+                            <td><input type="radio" name="q12" value="그렇다"></td>
+                            <td><input type="radio" name="q12" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>이 교육이 아이돌보미 활동에 도움이 될 것이라고 생각합니까?</td>
+                            <td><input type="radio" name="q13" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q13" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q13" value="보통"></td>
+                            <td><input type="radio" name="q13" value="그렇다"></td>
+                            <td><input type="radio" name="q13" value="매우 그렇다"></td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>전반적으로 이 교육에 만족하십니까?</td>
+                            <td><input type="radio" name="q14" value="매우 그렇지 않다"></td>
+                            <td><input type="radio" name="q14" value="그렇지 않다"></td>
+                            <td><input type="radio" name="q14" value="보통"></td>
+                            <td><input type="radio" name="q14" value="그렇다"></td>
+                            <td><input type="radio" name="q14" value="매우 그렇다"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>교육의 기타 의견을 자유롭게 작성해주세요</h2>
+            <textarea id="opinion" rows="4" cols="50"></textarea>
+        </div>
+
+        <div class="section">
+            <h2>아이돌보미(아이돌봄 활동 중)로서의 고충은 무엇입니까?</h2>
+            <textarea id="difficulty" rows="4" cols="50"></textarea>
+        </div>
+
+        <button class="submit-btn" onclick="addResponse()">응답 추가</button>
+
+        <h2>결과</h2>
+        <h3>연령대</h3>
+        <ul id="age-group-results"></ul>
+        <h3>경력</h3>
+        <ul id="experience-results"></ul>
+        <h3>설문 항목 결과</h3>
+        <ul>
+            <li>매우 그렇지 않다: <span id="very-unsatisfied-count">0</span></li>
+            <li>그렇지 않다: <span id="unsatisfied-count">0</span></li>
+            <li>보통: <span id="neutral-count">0</span></li>
+            <li>그렇다: <span id="satisfied-count">0</span></li>
+            <li>매우 그렇다: <span id="very-satisfied-count">0</span></li>
+        </ul>
+        <h3>기타 의견</h3>
+        <ul id="opinion-results"></ul>
+        <h3>고충</h3>
+        <ul id="difficulty-results"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
